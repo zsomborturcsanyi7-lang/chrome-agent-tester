@@ -1,5 +1,8 @@
 # Browser Testing 1.0 — Cognitive Session Engine (Chrome Extension)
 
+**Status:** ⚠️ Prototype — Chrome extension loads, Cognitive Session Engine untested
+
+
 **Version:** 1.0.0  
 **Author:** Zsombi & Hermes Agent (Nous Research)  
 **Status:** Working prototype
