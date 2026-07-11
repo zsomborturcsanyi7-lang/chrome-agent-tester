@@ -1,112 +1,112 @@
-# Browser Testing 1.0 — Cognitive Session Engine (Chrome Bővítmény)
+# Browser Testing 1.0 — Cognitive Session Engine (Chrome Extension)
 
-**Verzió:** 1.0.0  
-**Szerző:** Zsombi & Hermes Agent (Nous Research)  
-**Státusz:** Működő prototípus
-
----
-
-## Leírás
-
-A **Cognitive Session Engine** egy Chrome bővítmény (Manifest V3), amely AI-vezérelt szemantikus munkaterületként szolgál mély munkához és kutatáshoz. A bővítmény tartalmaz gráf-alapú munkamenet-kezelést, böngészési előzmények elemzését, és React alapú felhasználói felületet Lucide ikonokkal.
+**Version:** 1.0.0  
+**Author:** Zsombi & Hermes Agent (Nous Research)  
+**Status:** Working prototype
 
 ---
 
-## Fájlszerkezet
+## Description
+
+The **Cognitive Session Engine** is a Chrome extension (Manifest V3) that serves as an AI-driven semantic workspace for deep work and research. The extension includes graph-based session management, browsing history analysis, and a React-based user interface with Lucide icons.
+
+---
+
+## File Structure
 
 ```
 browser testing 1.0/
 │
-├── manifest.json               # Chrome bővítmény manifest (V3)
-├── package.json                # Node.js függőségek
-├── vite.config.js              # Vite konfiguráció
-├── index.html                  # Popup belépési pont
+├── manifest.json               # Chrome extension manifest (V3)
+├── package.json                # Node.js dependencies
+├── vite.config.js              # Vite configuration
+├── index.html                  # Popup entry point
 │
 ├── src/
 │   ├── background/
-│   │   ├── serviceWorker.js    # Service worker (háttérfolyamat)
-│   │   └── graphManager.js     # Gráf munkamenet kezelő
+│   │   ├── serviceWorker.js    # Service worker (background process)
+│   │   └── graphManager.js     # Graph session manager
 │   │
 │   ├── ui/
-│   │   ├── main.jsx            # React belépési pont
+│   │   ├── main.jsx            # React entry point
 │   │   ├── components/
-│   │   │   └── GraphCanvas.jsx # Gráf vizualizáció komponens
+│   │   │   └── GraphCanvas.jsx # Graph visualization component
 │   │   └── hooks/
-│   │       └── useGraphData.jsx # Gráf adat hook
+│   │       └── useGraphData.jsx # Graph data hook
 │   │
 │   └── db/
-│       └── schema.js           # Adatbázis séma
+│       └── schema.js           # Database schema
 │
-├── dist/                       # Build kimenet
+├── dist/                       # Build output
 │   ├── index.html
 │   ├── manifest.json
 │   └── assets/
 │
-└── node_modules/               # Függőségek
+└── node_modules/               # Dependencies
 ```
 
 ---
 
-## Használat
+## Usage
 
-### Fejlesztői mód
+### Development Mode
 
 ```bash
-# Függőségek telepítése
+# Install dependencies
 npm install
 
-# Fejlesztői build
+# Development build
 npm run dev
 
 # Production build
 npm run build
 ```
 
-### Chrome-ba telepítés
+### Installing in Chrome
 
-1. Nyisd meg a Chrome-ot: `chrome://extensions`
-2. Kapcsold be a **Fejlesztői módot**
-3. Kattints a **"Kicsomagolt bővítmény betöltése"** gombra
-4. Válaszd ki a `dist/` mappát
+1. Open Chrome: `chrome://extensions`
+2. Enable **Developer mode**
+3. Click **"Load unpacked extension"**
+4. Select the `dist/` folder
 
-### Production build használata
+### Using the Production Build
 
-A `dist/` mappa betölthető közvetlenül Chrome-ba kicsomagolt bővítményként.
+The `dist/` folder can be loaded directly into Chrome as an unpacked extension.
 
 ---
 
-## Jogosultságok
+## Permissions
 
-| Jogosultság | Indoklás |
+| Permission | Rationale |
 |------------|----------|
-| `tabs` | Lap információk |
-| `storage` + `unlimitedStorage` | Munkamenet adatok tárolása |
-| `scripting` | Oldalba injektálás |
-| `activeTab` | Aktív lap elérése |
-| `contextMenus` | Jobb klikk menü |
-| `history` | Böngészési előzmények |
+| `tabs` | Tab information |
+| `storage` + `unlimitedStorage` | Session data storage |
+| `scripting` | Page injection |
+| `activeTab` | Active tab access |
+| `contextMenus` | Right-click menu |
+| `history` | Browsing history |
 
 ---
 
-## Technológiák
+## Technologies
 
-| Technológia | Leírás |
+| Technology | Description |
 |------------|--------|
-| **Manifest V3** | Chrome bővítmény API |
-| **React** | UI komponensek |
-| **Vite** | Build eszköz |
-| **lucide-react** | Ikonok |
-| **Service Worker** | Háttérfolyamatok |
+| **Manifest V3** | Chrome extension API |
+| **React** | UI components |
+| **Vite** | Build tool |
+| **lucide-react** | Icons |
+| **Service Worker** | Background processes |
 
 ---
 
-## Függőségek
+## Dependencies
 
 - **Node.js** 18+
-- **Chrome** 88+ (Manifest V3 támogatás)
+- **Chrome** 88+ (Manifest V3 support)
 
 ---
 
-## Fejlesztő
+## Developer
 
-Zsombi & Hermes Agent (Nous Research) (AI asszisztens segítségével)
+Zsombi & Hermes Agent (Nous Research)
