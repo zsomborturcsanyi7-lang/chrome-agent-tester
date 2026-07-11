@@ -1,7 +1,7 @@
 # Browser Testing 1.0 — Cognitive Session Engine (Chrome Bővítmény)
 
 **Verzió:** 1.0.0  
-**Szerző:** Zsombi (AI asszisztens segítségével)  
+**Szerző:** Zsombi & Hermes Agent (Nous Research)  
 **Státusz:** Működő prototípus
 
 ---
@@ -109,4 +109,4 @@ A `dist/` mappa betölthető közvetlenül Chrome-ba kicsomagolt bővítményké
 
 ## Fejlesztő
 
-Zsombi (AI asszisztens segítségével) (AI asszisztens segítségével)
+Zsombi & Hermes Agent (Nous Research) (AI asszisztens segítségével)
