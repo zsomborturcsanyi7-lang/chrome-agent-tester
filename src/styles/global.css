@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.react-flow__node {
+  border-radius: 8px;
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  padding: 10px;
+  font-size: 12px;
+  width: 150px;
+}
+
+.react-flow__edge-path {
+  stroke: #38bdf8;
+  stroke-width: 2;
+}
