@@ -1,30 +1,26 @@
-# Cognitive Session Engine — Chrome extension böngészési session-ök kezelésére
+# Cognitive Session Engine — Chrome Extension for Browsing Session Management
 
-**Status:** ⚠️ Prototype — Chrome extension betölt, Cognitive Session Engine nem tesztelve
+**Status:** ⚠️ Prototype — Chrome extension loads, Cognitive Session Engine untested
 
-Chrome extension (Manifest V3) böngészési session-ök gráf-alapú kezelésére. React UI, Lucide ikonok, sematikus munkaterület kutatóknak.
+Chrome extension (Manifest V3) for graph-based browsing session management. React UI, Lucide icons, semantic workspace for researchers.
 
 ## ⚠️ THIS PROJECT IS UNFINISHED — FEEL FREE TO CONTINUE IT ⚠️
 
-**Ez a projekt NINCS KÉSZEN. Bárki folytathatja, aki akarja!**
-Ezt a projektet Zsombi & Hermes Agent (Nous Research) közösen fejlesztette, de egyik projekt sincs 100%-osan befejezve.
+This project was developed by Zsombi & Hermes Agent (Nous Research).
 
 ---
 
 ## Tech stack
 - Manifest V3
-- React + TypeScript
-- Vite
-- Tailwind CSS
-- Lucide ikonok
+- React + TypeScript + Vite
+- Tailwind CSS + Lucide icons
 
-## Fájlok
-| Fájl | Leírás |
-|------|--------|
+## Files
+| File | Description |
+|------|-------------|
 | `manifest.json` | Chrome extension manifest |
-| `src/` | Forráskód |
+| `src/` | Source code |
 | `index.html` | Popup/UI |
-| `package.json` | Node függőségek |
 
-## Fejlesztő
+## Developer
 Zsombi & Hermes Agent (Nous Research)
