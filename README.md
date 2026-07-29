@@ -1,26 +1,18 @@
 # chrome-agent-tester
 
-**Status:** ⚠️ Prototype — Chrome extension loads, Cognitive Session Engine untested
+Chrome bővítmény böngésző-tesztelés és automatizálás támogatására.
 
-Chrome extension (Manifest V3) for graph-based browsing session management. React UI, Lucide icons, semantic workspace for researchers.
+## 📌 A projekt célja
+Böngészőbeli műveletek automatizálása és tesztelése Chrome Extension architektúrán keresztül.
 
-## ⚠️ THIS PROJECT IS UNFINISHED — FEEL FREE TO CONTINUE IT ⚠️
+## ⚙️ Technológiai stakk
+- JavaScript / HTML / CSS (Chrome Extension Manifest V3)
 
-This project was developed by Zsombi & Hermes Agent (Nous Research).
+## 🚀 Telepítés és Használat
+1. Klónozd a repót: `git clone https://github.com/zsomborturcsanyi7-lang/chrome-agent-tester.git`
+2. Nyisd meg a Chrome-ban: `chrome://extensions`
+3. Kapcsold be a **Developer mode**-ot.
+4. Kattints a **Load unpacked** gombra, és válaszd ki a klónozott mappát.
 
----
-
-## Tech stack
-- Manifest V3
-- React + TypeScript + Vite
-- Tailwind CSS + Lucide icons
-
-## Files
-| File | Description |
-|------|-------------|
-| `manifest.json` | Chrome extension manifest |
-| `src/` | Source code |
-| `index.html` | Popup/UI |
-
-## Developer
-Zsombi & Hermes Agent (Nous Research)
+## 📊 Status
+⚠️ **Működő Chrome bővítmény prototípus**.
