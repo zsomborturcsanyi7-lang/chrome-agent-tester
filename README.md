@@ -1,18 +1,18 @@
 # chrome-agent-tester
 
-Chrome bővítmény böngésző-tesztelés és automatizálás támogatására.
+Chrome extension for automated browser testing and interaction routines.
 
-## 📌 A projekt célja
-Böngészőbeli műveletek automatizálása és tesztelése Chrome Extension architektúrán keresztül.
+## 📌 Overview & Purpose
+Provides a Chrome extension foundation for recording, executing, and testing automated browser workflows.
 
-## ⚙️ Technológiai stakk
-- JavaScript / HTML / CSS (Chrome Extension Manifest V3)
+## ⚙️ Tech Stack & Architecture
+- JavaScript, HTML, CSS (Chrome Extension Manifest V3)
 
-## 🚀 Telepítés és Használat
-1. Klónozd a repót: `git clone https://github.com/zsomborturcsanyi7-lang/chrome-agent-tester.git`
-2. Nyisd meg a Chrome-ban: `chrome://extensions`
-3. Kapcsold be a **Developer mode**-ot.
-4. Kattints a **Load unpacked** gombra, és válaszd ki a klónozott mappát.
+## 🚀 Installation & Quickstart
+1. Clone the repository: `git clone https://github.com/zsomborturcsanyi7-lang/chrome-agent-tester.git`
+2. Open Chrome and navigate to `chrome://extensions`
+3. Enable **Developer mode** in the top right corner.
+4. Click **Load unpacked** and select the cloned repository directory.
 
-## 📊 Status
-⚠️ **Működő Chrome bővítmény prototípus**.
+## 📊 Project Status
+⚠️ **Functional Extension Prototype**.
