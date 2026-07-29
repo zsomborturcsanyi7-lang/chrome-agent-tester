@@ -1,4 +1,4 @@
-# Cognitive Session Engine — Chrome Extension for Browsing Session Management
+# chrome-agent-tester
 
 **Status:** ⚠️ Prototype — Chrome extension loads, Cognitive Session Engine untested
 
